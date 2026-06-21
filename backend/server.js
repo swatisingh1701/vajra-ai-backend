@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: true }));
 
 import medhaRoute from "./routes/medha.js";
 import phishingRoute from "./routes/phishing.js";
-import urlScannerRoute from "./routes/urlscanner.js";
+import urlScannerRoute from "./routes/urlScanner.js";
 import ipLookupRoute from "./routes/iplookup.js";
 
 app.use("/api/medha", medhaRoute);
